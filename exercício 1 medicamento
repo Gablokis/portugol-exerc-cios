@@ -1,0 +1,21 @@
+programa {
+  funcao inicio() {
+    caracter nomeMedicamento1
+    caracter nomeMedicamento2
+    real valorMedicamento1
+    real valorMedicamento2
+
+    escreva("Digite o nome do primeiro medicamento: ")
+    leia(nomeMedicamento1)
+    escreva("Digite o valor de venda do primeiro medicamento: ")
+    leia(valorMedicamento1)
+
+    escreva("Digite o nome do segundo medicamento: ")
+    leia(nomeMedicamento2)
+    escreva("Digite o valor de venda do segundo medicamento: ")
+    leia(valorMedicamento2)
+
+    escreva("Medicamento 1: ", nomeMedicamento1, ", Valor: R$ ", valorMedicamento1, "\n")
+    escreva("Medicamento 2: ", nomeMedicamento2, ", Valor: R$ ", valorMedicamento2)
+  }
+}
