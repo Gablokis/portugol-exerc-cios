@@ -1,0 +1,25 @@
+programa {
+  funcao inicio() {
+    real   a1, b1, a2, b2
+    real  area1, area2, areaTotal
+
+    escreva("Digite a base do primeiro retângulo (a1): ")
+    leia(a1)
+    escreva("Digite a altura do primeiro retângulo (b1): ")
+    leia(b1)
+
+    escreva("Digite a base do segundo retângulo (a2): ")
+    leia(a2)
+    escreva("Digite a altura do segundo retângulo (b2): ")
+    leia(b2)
+
+    area1 = a1 * b1
+    area2 = a2 * b2
+
+    areaTotal = area1 + area2
+
+   escreva("Área do primeiro retângulo (A1): ", area1 )
+    escreva("Área do segundo retângulo (A2): ", area2 )
+    escreva("Área total das duas figuras (AT): ", areaTotal )
+  }
+}
