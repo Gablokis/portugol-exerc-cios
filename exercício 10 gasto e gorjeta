@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+    real gasto
+    real gorjeta
+    real total
+
+    escreva("Digite o valor gasto pelo cliente: ")
+    leia(gasto)
+
+
+    gorjeta = gasto * 0.10
+
+    total = gasto + gorjeta
+
+    escreva("Valor total a ser pago: R$ ", total)
+  }
+}
