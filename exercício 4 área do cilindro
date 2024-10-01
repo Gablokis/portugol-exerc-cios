@@ -1,0 +1,20 @@
+programa {
+  funcao inicio() {
+    real r
+    real h
+    real areaBase
+    real volume
+
+    escreva("Digite o valor do raio do cilindro: ")
+    leia(r)
+    escreva("Digite o valor da altura do cilindro: ")
+    leia(h)
+
+    areaBase = 3.14 * r * r
+
+    volume = areaBase * h
+
+    escreva("A área da base do cilindro é: ", areaBase, "\n")
+    escreva("O volume do cilindro é: ", volume, "\n")
+  }
+}
