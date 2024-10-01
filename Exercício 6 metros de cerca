@@ -1,0 +1,21 @@
+programa {
+  funcao inicio() {
+    real a 
+    real b 
+    real c
+    real cercaNecessaria
+
+
+    escreva("Digite o valor do lado a (em metros): ")
+    leia(a)
+    escreva("Digite o valor do lado b (em metros): ")
+    leia(b)
+
+    escreva("Digite o valor estimado do lado c (em metros): ")
+    leia(c)
+
+    cercaNecessaria = a + b + c - (a + b)  
+
+    escreva("Quantidade de cerca necessária para fechar o triângulo: ", c, " metros")
+  }
+}
