@@ -1,0 +1,20 @@
+programa {
+  funcao inicio() {
+   caracter  nomeFuncionario
+   inteiro quantidadeDependentes
+   caracter cargoFuncionario
+
+    escreva("Digite o nome do funcionário: ")
+    leia(nomeFuncionario)
+
+    escreva("Digite a quantidade de dependentes: ")
+    leia(quantidadeDependentes)
+
+    escreva("Digite o cargo do funcionário: ")
+    leia(cargoFuncionario)
+
+    escreva("Nome do funcionário: ", nomeFuncionario, "\n")
+    escreva("Quantidade de dependentes: ", quantidadeDependentes, "\n")
+    escreva("Cargo do funcionário: ", cargoFuncionario, "\n")
+  }
+}
